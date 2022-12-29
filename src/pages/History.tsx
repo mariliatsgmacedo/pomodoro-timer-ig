@@ -1,7 +1,7 @@
 export const History = () => {
   return (
-    <>
-      <p>historico</p>
-    </>
+    <div>
+      <p>Historico</p>
+    </div>
   )
 }
