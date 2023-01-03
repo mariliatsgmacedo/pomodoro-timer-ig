@@ -46,6 +46,9 @@ const InputBase = styled.input`
 `
 export const TaskInput = styled(InputBase)`
   flex: 1;
+  &::-webkit-calendar-picker-indicator {
+    display: none !important;
+  }
 `
 
 export const MinutesAmountInput = styled(InputBase)`
